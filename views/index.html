@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Forum - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/css/styles.css"> <!-- Optional custom styles -->
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="/" class="text-2xl font-bold">Open Forum</a>
+            <ul class="flex space-x-6">
+                <li><a href="/dashboard" class="hover:underline">Dashboard</a></li>
+                <li><a href="/categories" class="hover:underline">Categories</a></li>
+                <li><a href="/profile" class="hover:underline">Profile</a></li>
+                <li><a href="/login" class="hover:underline">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Welcome to Open Forum</h1>
+        <p class="mt-4 text-lg">Join discussions, share ideas, and connect with the community.</p>
+        <a href="/register" class="mt-6 inline-block bg-white text-blue-600 px-6 py-2 rounded-lg font-bold">Get Started</a>
+    </header>
+
+    <!-- Features Section -->
+    <section class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold text-center mb-6">Why Choose Open Forum?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-6 bg-white shadow-md rounded-lg">
+                <h3 class="text-xl font-bold">Diverse Topics</h3>
+                <p class="mt-2 text-gray-600">Explore discussions across multiple categories.</p>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg">
+                <h3 class="text-xl font-bold">Real-time Interaction</h3>
+                <p class="mt-2 text-gray-600">Engage with posts and replies instantly.</p>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg">
+                <h3 class="text-xl font-bold">Secure & Private</h3>
+                <p class="mt-2 text-gray-600">We ensure your data is safe and protected.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4 mt-12">
+        <p>&copy; 2025 Open Forum. All rights reserved.</p>
+    </footer>
+
+    <script src="/public/js/app.js"></script>
+</body>
+</html>
