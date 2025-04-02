@@ -15,6 +15,7 @@ const threadRoutes = require("./thread");
 const newThreadRoutes = require("./new-thread");
 const authRoutes = require("./auth");
 const homeRoutes = require("./index");
+const navbarRoutes = require("./navbar");
 
 // Use routes
 router.use("/about", aboutRoutes);
@@ -29,6 +30,7 @@ router.use("/profile", profileRoutes);
 router.use("/thread", threadRoutes);
 router.use("/new-thread", newThreadRoutes);
 router.use("/auth", authRoutes);
+router.use("/partials", navbarRoutes); // navbar route
 router.use("/", homeRoutes); // Home page route
 
 module.exports = router;
