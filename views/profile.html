@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Dev Forum</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+
+    <!-- Profile Header -->
+    <header class="profile-header">
+        <div class="cover-photo"></div>
+        <div class="profile-info">
+            <img src="public/images/profile-pic.png" class="profile-pic" alt="Profile Picture">
+            <h2>Alex Morgan</h2>
+            <p>@alexmorgan • Senior Developer</p>
+            <p>Full-stack developer passionate about open-source and community-driven projects.</p>
+            <div class="stats">
+                <span><strong>324</strong> Posts</span>
+                <span><strong>15.2K</strong> Followers</span>
+                <span><strong>28.9K</strong> Reactions</span>
+                <span><strong>4</strong> Years</span>
+            </div>
+            <button class="edit-btn">Edit Profile</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li class="active">📌 Posts</li>
+                    <li>💬 Comments</li>
+                    <li>🔖 Bookmarks</li>
+                    <li>📁 Projects</li>
+                    <li>⚙️ Settings</li>
+                </ul>
+            </nav>
+            <div class="activity">
+                <p>📜 Posts: <strong>324</strong></p>
+                <p>💬 Comments: <strong>942</strong></p>
+                <p>⭐ Reputation: <strong>8.7K</strong></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="content">
+            <div class="search-bar">
+                <input type="text" placeholder="Search posts...">
+                <button>🔍</button>
+            </div>
+
+            <div class="posts">
+                <div class="post-card">
+                    <h3>Mastering Tailwind CSS: From Basics to Advanced Techniques</h3>
+                    <p>A comprehensive guide to leveraging Tailwind CSS for modern web development.</p>
+                    <small>Posted 2 days ago • 2.4K views</small>
+                    <div class="post-meta">
+                        <span>💬 42</span>
+                        <span>❤️ 124</span>
+                    </div>
+                </div>
+
+                <div class="post-card">
+                    <h3>The Future of Web Development: 2023 Trends and Beyond</h3>
+                    <p>Exploring upcoming technologies shaping the future of web development.</p>
+                    <small>Posted 5 days ago • 3.2K views</small>
+                    <div class="post-meta">
+                        <span>💬 87</span>
+                        <span>❤️ 245</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button>« Previous</button>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>Next »</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
